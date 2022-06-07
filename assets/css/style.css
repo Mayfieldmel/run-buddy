@@ -49,6 +49,31 @@ header nav ul li a {
   font-size: 1.55vw;
 }
 
+/* apply styles to <footer> */
+footer {
+  background: #fce138;
+  width: 100%;
+  padding: 40px 35px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+footer h2 {
+  color: #024e76;
+  font-size: 30px;
+  margin: 0;
+}
+
+footer div {
+  line-height: 1.5;
+  text-align: right;
+}
+
+footer a {
+  color: #024e76;
+}
+
 section {
   padding: 60px;
 }
@@ -121,20 +146,16 @@ section {
 }
 
 /* apply styles to What We Do & What You Do */
-.intro {
-  text-align: center;
-}
-
 .intro p {
   line-height: 1.7;
   color: #39a6b2;
   width: 80%;
   font-size: 20px;
   margin: 0 auto;
+  text-align: center;
 }
 
 .steps {
-  text-align: center;
   background: #fce138;
 }
 
@@ -165,10 +186,11 @@ section {
 .section-title {
   font-size: 55px;
   color: #024e76;
-  margin-bottom: 35px;
-  padding: 0 100px 20px 100px;
-  display: inline-block;
   border-bottom: 3px solid;
+  padding-bottom: 20px;
+  text-align: center;
+  margin: 0 auto 35px auto;
+  width: 50%;
 }
 
 .primary-border {
@@ -180,9 +202,6 @@ section {
 }
 
 /* Style Trainers Section */
-.trainers {
-  text-align: center
-}
 
 .trainer {
   width: 900px;
@@ -203,14 +222,6 @@ section {
   width: 65%;
 }
 
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
 .trainer-bio h3 {
   font-size: 32px;
   margin-bottom: 8px;
@@ -229,7 +240,6 @@ section {
 
 /* Reach Out Style Start */
 .contact {
-  text-align: center;
   background: #024e76;
 }
 
@@ -269,27 +279,15 @@ section {
 }
 /* Reach Out Style End */
 
-/* apply styles to <footer> */
-footer {
-  background: #fce138;
-  width: 100%;
-  padding: 40px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+/* Utility Selectors */
+.text-left {
+  text-align: left;
 }
 
-footer h2 {
-  color: #024e76;
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
+.text-right {
   text-align: right;
 }
 
-footer a {
-  color: #024e76;
+.flex-row {
+  display: flex;
 }
